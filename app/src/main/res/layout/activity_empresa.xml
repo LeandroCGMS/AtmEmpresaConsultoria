@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="atmempresaconsultoria.cursoandroid.com.atmempresaconsultoria.EmpresaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/detalhe_empresa"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="@string/empresa_detalhes"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="47dp"
+            tools:text="@string/empresa_detalhes" />
+
+        <ScrollView
+            android:layout_width="320dp"
+            android:layout_height="420dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView2"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="112dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor risus ut lorem porttitor, in tincidunt odio blandit. Nam eget vestibulum ligula, vitae ultricies neque. Nullam tempor libero mauris, id porta ante vehicula ac. Proin tincidunt urna a ex porttitor, sit amet porta nisl gravida. Nullam elit lectus, porttitor ac aliquet a, pretium quis nisi. Aliquam diam urna, luctus vitae tincidunt sed, vestibulum nec metus. Fusce lorem velit, congue nec mi vel, luctus tempor sapien. Fusce pulvinar nisi eget turpis aliquam luctus. Morbi hendrerit mauris et maximus tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In blandit enim sem, ut posuere risus aliquam ac. Vivamus placerat vel ante eu sodales. Proin condimentum convallis leo, et finibus odio porttitor eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent feugiat neque in ligula euismod tincidunt. Aliquam id auctor purus. In sagittis porttitor diam, sed sagittis arcu mollis id. Vivamus vehicula magna tortor, at posuere tortor ultricies vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia leo lacus, eu feugiat sapien luctus at. Morbi ante elit, suscipit quis hendrerit in, pulvinar sed dolor. Integer ut tempor libero, a ullamcorper felis. Aliquam nibh risus, convallis sed tortor a, vehicula tincidunt lorem. Nulla et orci sem. Quisque sed mattis mauris. Donec lacinia malesuada dui quis blandit.  Duis commodo enim nec libero lacinia venenatis. Aliquam pellentesque aliquet est, id varius augue maximus non. Maecenas fringilla tellus ut justo aliquam accumsan ac in felis. Etiam iaculis lacus vitae ante porttitor, quis gravida massa mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi egestas, augue quis tincidunt pulvinar, quam enim ultrices est, id malesuada nisl quam at risus. Sed ac ipsum blandit, cursus metus quis, vulputate magna. Curabitur eget sollicitudin ante. Donec finibus commodo maximus. Aliquam sed neque urna."
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="112dp" />
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
