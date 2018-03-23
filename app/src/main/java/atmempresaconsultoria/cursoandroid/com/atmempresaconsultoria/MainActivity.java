@@ -42,14 +42,14 @@ public class MainActivity extends Activity {
         botaoClientes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(MainActivity.this, ClienteActivity.class));
             }
         });
 
         botaoContatos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(MainActivity.this, ContatoActivity.class));
             }
         });
     }

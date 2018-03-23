@@ -8,7 +8,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -38,6 +39,7 @@
             tools:text="@string/empresa_detalhes" />
 
         <ScrollView
+            android:id="@+id/scrollView2"
             android:layout_width="320dp"
             android:layout_height="420dp"
             android:layout_alignParentBottom="true"
@@ -47,8 +49,7 @@
             android:layout_marginStart="16dp"
             android:background="?attr/colorButtonNormal"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="112dp"
-            android:id="@+id/scrollView2">
+            tools:layout_editor_absoluteY="112dp">
 
             <TextView
                 android:id="@+id/textView2"
